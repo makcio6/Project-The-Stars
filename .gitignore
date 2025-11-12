@@ -99,3 +99,4 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 /Dungeon Crawler/Library
 /Dungeon Crawler/Temp
+/Dungeon Crawler/obj/Debug
