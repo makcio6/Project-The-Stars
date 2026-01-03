@@ -1,4 +1,4 @@
-using System.Collections;
+п»їusing System.Collections;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -28,26 +28,26 @@ public class PlayerStats : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerHealthUI healthUI;
 
-    [ContextMenu("Добавить контейнер здоровья")]
+    [ContextMenu("Р”РѕР±Р°РІРёС‚СЊ РєРѕРЅС‚РµР№РЅРµСЂ Р·РґРѕСЂРѕРІСЊСЏ")]
 
     private void Editor_AddContainer()
         {
             AddHealthContainer();
         }
 
-    [ContextMenu("Убрать контейнер здоровья")]
+    [ContextMenu("РЈР±СЂР°С‚СЊ РєРѕРЅС‚РµР№РЅРµСЂ Р·РґРѕСЂРѕРІСЊСЏ")]
     private void Editor_RemoveContainer()
         {
             RemoveHealthContainer();
         }
 
-    [ContextMenu("Получить урон")]
+    [ContextMenu("РџРѕР»СѓС‡РёС‚СЊ СѓСЂРѕРЅ")]
     private void Editor_TakeDamage()
         {
             TakeDamage(1);
         }
 
-    [ContextMenu("Лечение")]
+    [ContextMenu("Р›РµС‡РµРЅРёРµ")]
     private void Editor_Heal()
         {
             Heal(1);

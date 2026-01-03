@@ -1,10 +1,10 @@
-using UnityEngine;
+п»їusing UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField] private Transform target;         // Цель — игрок
-    [SerializeField] private Vector2 minPosition;      // Минимальные координаты (левый нижний угол карты)
-    [SerializeField] private Vector2 maxPosition;      // Максимальные координаты (правый верхний угол карты)
+    [SerializeField] private Transform target;         // Р¦РµР»СЊ вЂ” РёРіСЂРѕРє
+    [SerializeField] private Vector2 minPosition;      // РњРёРЅРёРјР°Р»СЊРЅС‹Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ (Р»РµРІС‹Р№ РЅРёР¶РЅРёР№ СѓРіРѕР» РєР°СЂС‚С‹)
+    [SerializeField] private Vector2 maxPosition;      // РњР°РєСЃРёРјР°Р»СЊРЅС‹Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ (РїСЂР°РІС‹Р№ РІРµСЂС…РЅРёР№ СѓРіРѕР» РєР°СЂС‚С‹)
 
     private float camHalfHeight;
     private float camHalfWidth;
